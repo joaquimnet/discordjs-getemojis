@@ -1,0 +1,27 @@
+{
+  "name": "discordjs-getemoji",
+  "version": "1.0.0",
+  "description": "Extract emojis from discord.js messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && jest --verbose",
+    "build": "node util/buildJson.js && node util/buildRegex.js",
+    "prepack": "npm t"
+  },
+  "keywords": [
+    "discord",
+    "emojis"
+  ],
+  "author": "Joaquim Neto",
+  "license": "MIT",
+  "dependencies": {
+    "emoji-regex": "^8.0.0"
+  },
+  "types": "index.d.ts",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.8.0"
+  }
+}
