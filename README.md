@@ -25,7 +25,7 @@ npm instal discordjs-getemojis
 
 ## Usage
 
-```sh
+```javascript
 // require the function
 const getEmojis = require('discordjs-getemojis');
 // pass a discord.js message to it and get an array of emojis back (or null if no emojis)
