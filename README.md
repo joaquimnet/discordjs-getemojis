@@ -20,7 +20,7 @@
 ## Install
 
 ```sh
-npm instal discordjs-getemojis
+npm install discordjs-getemojis
 ```
 
 ## Usage
