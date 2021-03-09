@@ -23,12 +23,12 @@ const getEmojis = (message) => {
     });
   }
   // Text emojis e.g ♥ ✂ 🗨
-  const textEmojis = content.match(irregularsRegex());
-  if (textEmojis) {
-    textEmojis.forEach((emoji) => {
-      result.push(irregulars[emoji.trim()]);
-    });
-  }
+  //const textEmojis = content.match(irregularsRegex());
+  //if (textEmojis) {
+  //  textEmojis.forEach((emoji) => {
+  //    result.push(irregulars[emoji.trim()]);
+  //  });
+  //}
   // Guild emojis
   let guildEmojis = content.match(/:[_a-zA-Z0-9]*>/g);
   if (guildEmojis) {
